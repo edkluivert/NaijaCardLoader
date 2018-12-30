@@ -18,6 +18,7 @@ import android.support.v7.widget.CardView;
 import android.util.SparseArray;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.gms.vision.Frame;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     CardView copy;
     Button selecter;
-    BlurImageView imgpreview;
+  ImageView imgpreview;
     TextView textresult;
 
     private static final int CAMERA_REQUEST_CODE = 200;
@@ -55,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
         selecter = findViewById(R.id.selecter);
         cameraPermission = new String[]{Manifest.permission.CAMERA,Manifest.permission.WRITE_EXTERNAL_STORAGE};
         storagePermission = new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE};
-        imgpreview.setBlur(5);
+
+
         clipboardManager = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
 
        selecter.setOnClickListener(new View.OnClickListener() {
