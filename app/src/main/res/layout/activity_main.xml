@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradientbac"
+        tools:context=".MainActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                     android:background="@color/white"
+    >
+
+        <com.jgabrielfreitas.core.BlurImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/imgpreview"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+        >
+        </com.jgabrielfreitas.core.BlurImageView>
+
+
+    </RelativeLayout>
+
+
+
+
+    <android.support.v7.widget.CardView
+            android:layout_width="280dp"
+            android:layout_height="120dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#646060"
+                  android:layout_gravity="center_horizontal"
+                  android:textSize="18sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/textresult"
+                  android:padding="20dp"
+        />
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="220dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            android:layout_centerHorizontal="true"
+    >
+
+        <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/selecter"
+               android:background="@drawable/gradientbutton"
+                android:textColor="@color/white"
+                android:text="Select Photo"
+                android:textSize="10sp"
+        />
+
+  <android.support.v7.widget.CardView
+          android:layout_width="120dp"
+          android:layout_height="40dp"
+          app:cardElevation="5dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="90dp"
+          app:cardBackgroundColor="@color/colorPrimaryDark"
+          app:cardCornerRadius="15dp"
+          android:id="@+id/copy"
+  >
+      <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Copy Text"
+              android:textColor="@color/white"
+              android:layout_gravity="center"
+
+      />
+
+
+  </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

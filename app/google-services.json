@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "854356974441",
+    "firebase_url": "https://naijacardloader-6a983.firebaseio.com",
+    "project_id": "naijacardloader-6a983",
+    "storage_bucket": "naijacardloader-6a983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854356974441:android:56defd7c4f4f3254",
+        "android_client_info": {
+          "package_name": "ng.com.hybrid.naijacardloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854356974441-gmq5peefgf7nch7f6050k22mjobpaj77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE9Ajw6rCJ2N9Qi-7ZvnVNV7u6i6ToR6g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

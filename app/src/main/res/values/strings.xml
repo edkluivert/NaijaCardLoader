@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NaijaCardLoader</string>
+    <string name="mtn">MTN</string>
+    <string name="glo">GLO</string>
+    <string name="_9mobile">9mobile</string>
+    <string name="airtel">AIRTEL</string>
+</resources>
